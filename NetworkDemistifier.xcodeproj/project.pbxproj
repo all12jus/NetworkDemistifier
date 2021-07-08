@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02B9B66269785290057F3C5 /* NetworkDemistifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B65269785290057F3C5 /* NetworkDemistifierApp.swift */; };
+		D02B9B68269785290057F3C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B67269785290057F3C5 /* ContentView.swift */; };
+		D02B9B6A2697852B0057F3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02B9B692697852B0057F3C5 /* Assets.xcassets */; };
+		D02B9B6D2697852B0057F3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02B9B6C2697852B0057F3C5 /* Preview Assets.xcassets */; };
+		D02B9B6F2697852B0057F3C5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B6E2697852B0057F3C5 /* Persistence.swift */; };
+		D02B9B722697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B702697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld */; };
+		D02B9B7D2697852B0057F3C5 /* NetworkDemistifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B7C2697852B0057F3C5 /* NetworkDemistifierTests.swift */; };
+		D02B9B882697852B0057F3C5 /* NetworkDemistifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B872697852B0057F3C5 /* NetworkDemistifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D02B9B792697852B0057F3C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02B9B5A269785290057F3C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02B9B61269785290057F3C5;
+			remoteInfo = NetworkDemistifier;
+		};
+		D02B9B842697852B0057F3C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02B9B5A269785290057F3C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02B9B61269785290057F3C5;
+			remoteInfo = NetworkDemistifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02B9B62269785290057F3C5 /* NetworkDemistifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkDemistifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02B9B65269785290057F3C5 /* NetworkDemistifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemistifierApp.swift; sourceTree = "<group>"; };
+		D02B9B67269785290057F3C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D02B9B692697852B0057F3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D02B9B6C2697852B0057F3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D02B9B6E2697852B0057F3C5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D02B9B712697852B0057F3C5 /* NetworkDemistifier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetworkDemistifier.xcdatamodel; sourceTree = "<group>"; };
+		D02B9B732697852B0057F3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02B9B782697852B0057F3C5 /* NetworkDemistifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkDemistifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02B9B7C2697852B0057F3C5 /* NetworkDemistifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemistifierTests.swift; sourceTree = "<group>"; };
+		D02B9B7E2697852B0057F3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02B9B832697852B0057F3C5 /* NetworkDemistifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkDemistifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02B9B872697852B0057F3C5 /* NetworkDemistifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemistifierUITests.swift; sourceTree = "<group>"; };
+		D02B9B892697852B0057F3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D02B9B5F269785290057F3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02B9B752697852B0057F3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02B9B802697852B0057F3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02B9B59269785290057F3C5 = {
+			isa = PBXGroup;
+			children = (
+				D02B9B64269785290057F3C5 /* NetworkDemistifier */,
+				D02B9B7B2697852B0057F3C5 /* NetworkDemistifierTests */,
+				D02B9B862697852B0057F3C5 /* NetworkDemistifierUITests */,
+				D02B9B63269785290057F3C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D02B9B63269785290057F3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02B9B62269785290057F3C5 /* NetworkDemistifier.app */,
+				D02B9B782697852B0057F3C5 /* NetworkDemistifierTests.xctest */,
+				D02B9B832697852B0057F3C5 /* NetworkDemistifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D02B9B64269785290057F3C5 /* NetworkDemistifier */ = {
+			isa = PBXGroup;
+			children = (
+				D02B9B65269785290057F3C5 /* NetworkDemistifierApp.swift */,
+				D02B9B67269785290057F3C5 /* ContentView.swift */,
+				D02B9B692697852B0057F3C5 /* Assets.xcassets */,
+				D02B9B6E2697852B0057F3C5 /* Persistence.swift */,
+				D02B9B732697852B0057F3C5 /* Info.plist */,
+				D02B9B702697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld */,
+				D02B9B6B2697852B0057F3C5 /* Preview Content */,
+			);
+			path = NetworkDemistifier;
+			sourceTree = "<group>";
+		};
+		D02B9B6B2697852B0057F3C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D02B9B6C2697852B0057F3C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D02B9B7B2697852B0057F3C5 /* NetworkDemistifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				D02B9B7C2697852B0057F3C5 /* NetworkDemistifierTests.swift */,
+				D02B9B7E2697852B0057F3C5 /* Info.plist */,
+			);
+			path = NetworkDemistifierTests;
+			sourceTree = "<group>";
+		};
+		D02B9B862697852B0057F3C5 /* NetworkDemistifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D02B9B872697852B0057F3C5 /* NetworkDemistifierUITests.swift */,
+				D02B9B892697852B0057F3C5 /* Info.plist */,
+			);
+			path = NetworkDemistifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02B9B61269785290057F3C5 /* NetworkDemistifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02B9B8C2697852B0057F3C5 /* Build configuration list for PBXNativeTarget "NetworkDemistifier" */;
+			buildPhases = (
+				D02B9B5E269785290057F3C5 /* Sources */,
+				D02B9B5F269785290057F3C5 /* Frameworks */,
+				D02B9B60269785290057F3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkDemistifier;
+			productName = NetworkDemistifier;
+			productReference = D02B9B62269785290057F3C5 /* NetworkDemistifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D02B9B772697852B0057F3C5 /* NetworkDemistifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02B9B8F2697852B0057F3C5 /* Build configuration list for PBXNativeTarget "NetworkDemistifierTests" */;
+			buildPhases = (
+				D02B9B742697852B0057F3C5 /* Sources */,
+				D02B9B752697852B0057F3C5 /* Frameworks */,
+				D02B9B762697852B0057F3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02B9B7A2697852B0057F3C5 /* PBXTargetDependency */,
+			);
+			name = NetworkDemistifierTests;
+			productName = NetworkDemistifierTests;
+			productReference = D02B9B782697852B0057F3C5 /* NetworkDemistifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D02B9B822697852B0057F3C5 /* NetworkDemistifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02B9B922697852B0057F3C5 /* Build configuration list for PBXNativeTarget "NetworkDemistifierUITests" */;
+			buildPhases = (
+				D02B9B7F2697852B0057F3C5 /* Sources */,
+				D02B9B802697852B0057F3C5 /* Frameworks */,
+				D02B9B812697852B0057F3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02B9B852697852B0057F3C5 /* PBXTargetDependency */,
+			);
+			name = NetworkDemistifierUITests;
+			productName = NetworkDemistifierUITests;
+			productReference = D02B9B832697852B0057F3C5 /* NetworkDemistifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D02B9B5A269785290057F3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D02B9B61269785290057F3C5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D02B9B772697852B0057F3C5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D02B9B61269785290057F3C5;
+					};
+					D02B9B822697852B0057F3C5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D02B9B61269785290057F3C5;
+					};
+				};
+			};
+			buildConfigurationList = D02B9B5D269785290057F3C5 /* Build configuration list for PBXProject "NetworkDemistifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D02B9B59269785290057F3C5;
+			productRefGroup = D02B9B63269785290057F3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02B9B61269785290057F3C5 /* NetworkDemistifier */,
+				D02B9B772697852B0057F3C5 /* NetworkDemistifierTests */,
+				D02B9B822697852B0057F3C5 /* NetworkDemistifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D02B9B60269785290057F3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02B9B6D2697852B0057F3C5 /* Preview Assets.xcassets in Resources */,
+				D02B9B6A2697852B0057F3C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02B9B762697852B0057F3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02B9B812697852B0057F3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D02B9B5E269785290057F3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02B9B6F2697852B0057F3C5 /* Persistence.swift in Sources */,
+				D02B9B68269785290057F3C5 /* ContentView.swift in Sources */,
+				D02B9B722697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld in Sources */,
+				D02B9B66269785290057F3C5 /* NetworkDemistifierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02B9B742697852B0057F3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02B9B7D2697852B0057F3C5 /* NetworkDemistifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02B9B7F2697852B0057F3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02B9B882697852B0057F3C5 /* NetworkDemistifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D02B9B7A2697852B0057F3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02B9B61269785290057F3C5 /* NetworkDemistifier */;
+			targetProxy = D02B9B792697852B0057F3C5 /* PBXContainerItemProxy */;
+		};
+		D02B9B852697852B0057F3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02B9B61269785290057F3C5 /* NetworkDemistifier */;
+			targetProxy = D02B9B842697852B0057F3C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D02B9B8A2697852B0057F3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D02B9B8B2697852B0057F3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D02B9B8D2697852B0057F3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkDemistifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 562HEMPPEX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NetworkDemistifier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.justins.NetworkDemistifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D02B9B8E2697852B0057F3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkDemistifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 562HEMPPEX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NetworkDemistifier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.justins.NetworkDemistifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D02B9B902697852B0057F3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 562HEMPPEX;
+				INFOPLIST_FILE = NetworkDemistifierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.justins.NetworkDemistifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkDemistifier.app/NetworkDemistifier";
+			};
+			name = Debug;
+		};
+		D02B9B912697852B0057F3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 562HEMPPEX;
+				INFOPLIST_FILE = NetworkDemistifierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.justins.NetworkDemistifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkDemistifier.app/NetworkDemistifier";
+			};
+			name = Release;
+		};
+		D02B9B932697852B0057F3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 562HEMPPEX;
+				INFOPLIST_FILE = NetworkDemistifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.justins.NetworkDemistifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkDemistifier;
+			};
+			name = Debug;
+		};
+		D02B9B942697852B0057F3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 562HEMPPEX;
+				INFOPLIST_FILE = NetworkDemistifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.justins.NetworkDemistifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkDemistifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D02B9B5D269785290057F3C5 /* Build configuration list for PBXProject "NetworkDemistifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02B9B8A2697852B0057F3C5 /* Debug */,
+				D02B9B8B2697852B0057F3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02B9B8C2697852B0057F3C5 /* Build configuration list for PBXNativeTarget "NetworkDemistifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02B9B8D2697852B0057F3C5 /* Debug */,
+				D02B9B8E2697852B0057F3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02B9B8F2697852B0057F3C5 /* Build configuration list for PBXNativeTarget "NetworkDemistifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02B9B902697852B0057F3C5 /* Debug */,
+				D02B9B912697852B0057F3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02B9B922697852B0057F3C5 /* Build configuration list for PBXNativeTarget "NetworkDemistifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02B9B932697852B0057F3C5 /* Debug */,
+				D02B9B942697852B0057F3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D02B9B702697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D02B9B712697852B0057F3C5 /* NetworkDemistifier.xcdatamodel */,
+			);
+			currentVersion = D02B9B712697852B0057F3C5 /* NetworkDemistifier.xcdatamodel */;
+			path = NetworkDemistifier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D02B9B5A269785290057F3C5 /* Project object */;
+}
