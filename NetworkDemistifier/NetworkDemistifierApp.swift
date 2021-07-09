@@ -13,7 +13,7 @@ struct NetworkDemistifierApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RequestView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

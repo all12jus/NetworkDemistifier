@@ -17,20 +17,23 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+        NavigationView {
+            // this already has a scrollview.
+            List {
+                ForEach(items) { item in
+                    Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                }
+                .onDelete(perform: deleteItems)
             }
-            .onDelete(perform: deleteItems)
-        }
-        .toolbar {
-            #if os(iOS)
-            EditButton()
-            #endif
-
-            Button(action: addItem) {
-                Label("Add Item", systemImage: "plus")
-            }
+            .navigationBarTitle("Network Demistifier", displayMode: .inline)
+            .navigationBarItems(trailing: Button(action: {
+                addItem()
+            }, label: {
+//                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+//                Label("Add Item", systemImage: "plus")
+                Image(systemName: "plus")
+            }))
+            
         }
     }
 

@@ -15,6 +15,7 @@
 		D02B9B722697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B702697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld */; };
 		D02B9B7D2697852B0057F3C5 /* NetworkDemistifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B7C2697852B0057F3C5 /* NetworkDemistifierTests.swift */; };
 		D02B9B882697852B0057F3C5 /* NetworkDemistifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B872697852B0057F3C5 /* NetworkDemistifierUITests.swift */; };
+		D02B9B9626978B2A0057F3C5 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9B9526978B2A0057F3C5 /* RequestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D02B9B832697852B0057F3C5 /* NetworkDemistifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkDemistifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02B9B872697852B0057F3C5 /* NetworkDemistifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemistifierUITests.swift; sourceTree = "<group>"; };
 		D02B9B892697852B0057F3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02B9B9526978B2A0057F3C5 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D02B9B732697852B0057F3C5 /* Info.plist */,
 				D02B9B702697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld */,
 				D02B9B6B2697852B0057F3C5 /* Preview Content */,
+				D02B9B9526978B2A0057F3C5 /* RequestView.swift */,
 			);
 			path = NetworkDemistifier;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02B9B9626978B2A0057F3C5 /* RequestView.swift in Sources */,
 				D02B9B6F2697852B0057F3C5 /* Persistence.swift in Sources */,
 				D02B9B68269785290057F3C5 /* ContentView.swift in Sources */,
 				D02B9B722697852B0057F3C5 /* NetworkDemistifier.xcdatamodeld in Sources */,
